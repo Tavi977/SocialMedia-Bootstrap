@@ -14,12 +14,12 @@
     align-items: center;
 }
 .search-box {
-    background-color: #adaaaa;
+    background-color: #444444;
     border: unset;
 }
 main {
     min-height: 120vh;
-    margin-top: 10vh;
+    margin-top: 13vh;
 }
 .gray-icon {
     font-size: 40px;
@@ -29,26 +29,33 @@ main {
     height: 50px;
     width: auto;
     border-radius: 50%;
+}   
+.nav-section {
+    flex: 1;
+}
+.costum-user {
+    font-size: 16px;
 }
 .costumize-icon {
-    background: rgb(73, 72, 72);
-    width: 45px;
-    height: 45px;
+   font-size: 25px;
+    height: 40px;
+    width:40px;
+    background-color: rgb(73, 72, 72);
     border-radius: 50%;
-    padding: 13px;
-    
-}   
-.dropdown-icon {
-    background: rgb(73, 72, 72);
-    width: 45px;
-    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card-position {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.user-img {
+    height: 50px;
+    width: 50px;
     border-radius: 50%;
-    padding: 14px;
 }
-.media-card {
-    width: 25rem;
-}
-.card-img {
-    height: 150px;
-    width: 150px;
+.post-style {
+    font-size: 13px;
 }
