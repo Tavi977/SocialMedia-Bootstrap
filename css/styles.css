@@ -59,3 +59,8 @@ main {
 .post-style {
     font-size: 13px;
 }
+.card-image {
+    height: 100%;
+    width: 100%;
+
+}
