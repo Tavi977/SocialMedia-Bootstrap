@@ -13,13 +13,18 @@
     justify-content: center;
     align-items: center;
 }
+nav {
+    min-height: 10vh;
+}
+
 .search-box {
     background-color: #444444;
     border: unset;
 }
 main {
-    min-height: 120vh;
-    margin-top: 13vh;
+    min-height: 100vh;
+    margin-top: 10vh;
+    background-color: rgb(228, 227, 227);
 }
 .gray-icon {
     font-size: 40px;
@@ -46,11 +51,6 @@ main {
     justify-content: center;
     align-items: center;
 }
-.card-position {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 .user-img {
     height: 50px;
     width: 50px;
@@ -58,4 +58,8 @@ main {
 }
 .post-style {
     font-size: 13px;
+}
+.card-style {
+    height: 50rem;
+    width: 35rem;
 }
