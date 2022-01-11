@@ -23,73 +23,69 @@
           aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0 d-flex nav-section">
             <li class="nav-item">
               <form>
                 <input class="form-control me-2 search-box rounded-pill" type="search" placeholder="Search curs"
                   aria-label="Search">
               </form>
             </li>
-
-            <!-- <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                          Dropdown
-                        </a>
-                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                          <li><a class="dropdown-item" href="#">Action</a></li>
-                          <li><a class="dropdown-item" href="#">Another action</a></li>
-                          <li><hr class="dropdown-divider"></li>
-                          <li><a class="dropdown-item" href="#">Something else here</a></li>
-                        </ul>
-                      </li> -->
           </ul>
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0 d-flex nav-section justify-content-evenly">
             <li class="nav-item ">
               <a class="navbar-brand" href="#">
-                <i class="fas fa-home gray-icon"></i>
+                <i class="fas fa-home-lg gray-icon"></i>
               </a>
-            </li>  
-          <li class="nav-item ">
+            </li>
+            <li class="nav-item ">
               <a class="navbar-brand" href="#">
                 <i class="fas fa-user-circle gray-icon"></i>
               </a>
-            </li>  
-          <li class="nav-item ">
+            </li>
+            <li class="nav-item ">
               <a class="navbar-brand" href="#">
                 <i class="fas fa-users gray-icon"></i>
               </a>
             </li>
           </ul>
-          </div>
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
+
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0 d-flex justify-content-end align-items-center nav-section ">
             <li class="nav-item">
-              <a href="#" class="navbar-brand">
+              <a href="#" class="navbar-brand ">
                 <img class="profile-img"
                   src="./images/Arcade+Flowers+_+Artisan+Floristry+_+Ringwood+Hampshire+_+Bouquets+6+_+www.arcadeflowers.co.uk.jpg">
-                username
+                <span class="costum-user">username</span>
               </a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item pe-1 d-flex align-items-center">
               <a class="navbar-brand" href="#">
-                <i class="fas fa-plus costumize-icon"></i>
+                <i class="fas fa-plus costumize-icon "></i>
               </a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item pe-1 d-flex align-items-center">
               <a class="navbar-brand" href="#">
                 <i class="far fa-comment costumize-icon"></i>
               </a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item pe-1 d-flex align-items-center">
               <a class="navbar-brand" href="#">
                 <i class="fas fa-bell costumize-icon"></i>
               </a>
             </li>
-            <li class="nav-item">
-              <a class="navbar-brand" href="#">
-                <i class="fas fa-caret-down dropdown-icon"></i>
+            <li class="nav-item dropdown pe-1 d-flex align-items-center">
+              <a class="navbar-brand" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                <i class="fas fa-caret-down costumize-icon"></i>
               </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Search</a></li>
+                <li><a class="dropdown-item" href="#">Help</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="#">Settings</a></li>
+              </ul>
             </li>
           </ul>
         </div>
@@ -97,7 +93,43 @@
     </nav>
   </header>
   <main>
-    
+    <div class="container-fluid d-flex justify-content-center align-items-center">
+      <div class="card card-style">
+        <div class="card-body">
+          <div class="d-flex justify-content-between m-0">
+            <div class="d-flex flex-row align-items-center">
+              <img class="user-img "
+                src="./images/thumb2-brown-leaves-texture-4k-plant-textures-leaves-brown-backgrounds.jpg "
+                alt="logo-profile">
+              <div class="d-flex flex-column ">
+                <h5 class=" m-0 pt-2 ms-2 fs-6">User Name</h5>
+                <span class=" m-0 post-style ms-2">30 Nov 2021</span>
+              </div>
+            </div>
+            <div class="d-flex flex-row mt-1">
+              <i><i class="fas fa-ellipsis-h"></i></i>
+            </div>
+          </div>
+          <div class="mt-4">
+            <img src="./images/fire-png-by-nsbpictures-9.jpg" class="img-fluid">
+          </div>
+          <div class="pt-2">
+            <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing</p>
+            <div class="d-flex justify-content-between m-0">
+              <div class="d-flex flex-row ">
+                <i class="fas fa-thumbs-up"></i>
+                <span>16 likes</span>
+              </div>
+              <div class="d-flex flex-row ">
+                <p>200 shares</p>
+              </div>
+            </div>
+           
+          </div>
+        </div>
+      </div>
+    </div>
+
   </main>
 </body>
 <html>
