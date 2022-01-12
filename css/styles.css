@@ -60,6 +60,28 @@ main {
     font-size: 13px;
 }
 .card-style {
-    height: 50rem;
+    height: 52rem;
     width: 35rem;
+}
+.icons-style {
+    font-size: 25px;
+}
+.profile-img-box {
+    height: 33px;
+    width: auto;
+    border-radius: 50%;
+}
+.search-box-comment {
+    background-color: rgb(245, 241, 241);
+    border: unset;
+    width: 495px;
+    height: 32px;
+}
+.comment-img {
+    height: 33px;
+    width: 33px;
+    border-radius: 50%;
+}
+.comment-style {
+    margin-left: 40px;
 }
